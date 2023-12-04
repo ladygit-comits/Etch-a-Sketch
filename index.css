@@ -1,0 +1,32 @@
+*{
+    background-color: aquamarine;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin-left: 25%;
+    border: 2px solid rgb(27, 167, 141);
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+.square-el {
+    box-sizing: border-box;
+    background-color: rgb(251, 244, 244);
+    min-width: 20px; /* Adjust as needed */
+    min-height: 20px; /* Adjust as needed */
+    
+}
+
+.button-el{
+
+    width: 90px;
+    height: 23;
+    
+}
+
+
